@@ -14,9 +14,15 @@ namespace ProjectEulerProblem0001
             // Invoke th function
             Console.WriteLine("Project Euler Problem 001 " + SolveProjectEulerProblem001());
         }
+      
+        /// <summary>
+        /// This Method shows us the mutiples between 3 or 5 or below 1000
+        /// 
+        /// </summary>
+        /// <returns> The soloutuion to the problem</returns>
+        
         static int SolveProjectEulerProblem001()
         {
-            // Find the sum of all the multiples of 3 or 5 or below 1000
             int sum = 0;
             for (int i = 0; i < 1000; i++)
             {
