@@ -17,7 +17,7 @@ namespace ProjectEulerProblem0001
       
         /// <summary>
         /// This Method shows us the mutiples between 3 or 5 or below 1000
-        /// 
+        /// Link to problem
         /// </summary>
         /// <returns> The soloutuion to the problem</returns>
         
@@ -26,7 +26,7 @@ namespace ProjectEulerProblem0001
             int sum = 0;
             for (int i = 0; i < 1000; i++)
             {
-                if (i % 3 == 0 || i % 5 == 0)
+                if (i % 3 == 0 || i % 5 == 0 || i % 7 == 0)
                 {
                     sum = sum + i;
                 }
